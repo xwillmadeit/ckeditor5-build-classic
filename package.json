@@ -75,6 +75,7 @@
 		"url": "https://github.com/ckeditor/ckeditor5-build-classic.git"
 	},
 	"scripts": {
+		"test": "echo 'test'",
 		"build": "webpack --mode production",
 		"lint": "eslint --quiet '**/*.js'",
 		"publish": "np --any-branch"
